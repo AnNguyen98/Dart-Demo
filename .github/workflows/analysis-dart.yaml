@@ -4,10 +4,8 @@ name: Pull Request Validation
 
 jobs:
   build:
-    name: Example
+    name: Init
     runs-on: ubuntu-latest
-    container:
-      image: google/dart:latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
