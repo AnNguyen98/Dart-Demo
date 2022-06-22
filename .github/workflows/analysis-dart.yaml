@@ -6,6 +6,8 @@ jobs:
   build:
     name: Init
     runs-on: ubuntu-latest
+    container:
+      image: google/dart:latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
