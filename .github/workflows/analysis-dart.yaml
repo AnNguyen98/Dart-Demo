@@ -14,4 +14,4 @@ jobs:
       - name: Install dependencies
         run: dart pub get
       - name: Analyze Dart
-        uses: dart analyze
+        uses: dart analyze --fatal-infos
