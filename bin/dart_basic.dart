@@ -1,7 +1,7 @@
-void main(List<String> arguments) async {
+Future<void> main(List<String> arguments) async {
   int? a;
 
-  final number = a ?? 100;
+  final _ = a ?? 100;
 
   a ??= 100;
 
@@ -10,7 +10,7 @@ void main(List<String> arguments) async {
   ages.addAll([]);
 
   // numbers = <int>[1, 2, 3, ...ages];
-  print(a);
+  // print(a);
 }
 
 class User {
