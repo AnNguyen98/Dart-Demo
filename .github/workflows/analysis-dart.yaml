@@ -15,4 +15,4 @@ jobs:
         run: dart pub get
       - name: Analyze Dart
         # uses: zgosalvez/github-actions-analyze-dart@v1
-        uses: dart-analyze
+        uses: dart analyze
